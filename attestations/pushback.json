@@ -1,0 +1,11 @@
+{
+  "identity": "pushback",
+  "proofs": [
+    {
+      "type": "github",
+      "url": "https://raw.githubusercontent.com/titled-agent-001/pushback-mirror/main/pushback-pubkey.txt"
+    }
+  ],
+  "pubkey": "95099ab466d244e5640ac0238c69be499b3f3907d7062f8f848974906560b97c",
+  "schema": "dhf.attestation.v1"
+}

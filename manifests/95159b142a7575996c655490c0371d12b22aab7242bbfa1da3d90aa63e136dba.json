@@ -1,0 +1,42 @@
+{
+  "created_at": 1794801458,
+  "description": "SmolLM2 135M Instruct, Q4_K_M GGUF quantization by bartowski. First real model on the PushBack network.",
+  "files": [
+    {
+      "chunk_size": 8388608,
+      "chunks": [
+        "bf958dbbe105ffd31af77df1b7411cb8d55d8d86c77a996fd0c1b3543ad363d5",
+        "913a6eeb248ac5535f21f1c73806b5ebb01b6f280025ed1771539b97da8dca90",
+        "6b44d8306aee9c6abac56203886828cca650395475254d5253cbce9848357414",
+        "b8bae0c744ae7e03d287baa7fbbb026adc22b7a71a663b5f6cf62a56b9a6f34c",
+        "3711310747a09161c1273581a3b32b33cfaeecd6be24ea2c3b209a1d850574b4",
+        "6fc84037fa8ab4f3526322e29e223fe939a8de40bc1f4c03cff34dd0956c3a78",
+        "a63c5f5ad146f2adc041a3d4bd847562e19d0b6c408e2b86d12142bf9bcdc584",
+        "35187a377972f6a34f4a3c63be8144f9825fe90571217e4846b2e862362f9d86",
+        "a2a7a9b5f5934b7bc8b4b7b22727d63109a1ab9f333f8dbb54d3b08e8018f08b",
+        "94ea9aaf1c9a3264d62a5c21df162cb37c6e409a77ee9cf8eaa95801517789c0",
+        "dc3bb86b994e98980c6705c097742fb6ba7e0290198ed393c507f99255fbdf9c",
+        "c0eb3183b77eddce7587a83e5ec4c477e4e5e059242dc30846bd85dc84413c18",
+        "c4629cc73073adb41ba33e5032ed2b730c0d622c32626aa4e99289275c8dc9cf"
+      ],
+      "merkle_root": "fad07c54f80dc6aabafda9c0a05f0ba03577061321f474292d5823c485be2ce9",
+      "path": "smollm2-135m-instruct-q4_k_m.gguf",
+      "size": 105454432
+    }
+  ],
+  "license": "apache-2.0",
+  "name": "smollm2-135m-instruct-gguf",
+  "namespace": "pushback",
+  "publisher_pubkey": "95099ab466d244e5640ac0238c69be499b3f3907d7062f8f848974906560b97c",
+  "schema": "dhf.manifest.v1",
+  "signature": {
+    "algo": "ed25519",
+    "manifest_id": "95159b142a7575996c655490c0371d12b22aab7242bbfa1da3d90aa63e136dba",
+    "sig": "68a639ce363393887b535f0fe96a1abdd133136fa5a505114140dcece93f5cfb532de63d0ae78f98f1aa38c3c21172102772c8764110d6eb834cae26ac482101"
+  },
+  "sources": [
+    "https://github.com/titled-agent-001/pushback-mirror/releases/download/smollm2-135m-instruct-1.0.0"
+  ],
+  "total_size": 105454432,
+  "version": "1.0.0"
+}
