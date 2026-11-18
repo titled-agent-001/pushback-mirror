@@ -1,0 +1,85 @@
+{
+  "created_at": 1794964922,
+  "description": "The PushBack frontend itself, content-addressed and signed. Pin it, mirror it, or serve it from any gateway; this manifest plus the IPFS CID make the UI verifiable like any model.",
+  "files": [
+    {
+      "chunk_size": 8388608,
+      "chunks": [
+        "f5d1ed0f5032ae128931f46459b5faa1af6319fc2dfb3e7a5fe54a84bf93dbd6"
+      ],
+      "merkle_root": "f5d1ed0f5032ae128931f46459b5faa1af6319fc2dfb3e7a5fe54a84bf93dbd6",
+      "path": ".vercel/README.txt",
+      "size": 520
+    },
+    {
+      "chunk_size": 8388608,
+      "chunks": [
+        "c91f787b3f5262db64c678ae088be45e7b6b401c6741a8d03d8835871848433c"
+      ],
+      "merkle_root": "c91f787b3f5262db64c678ae088be45e7b6b401c6741a8d03d8835871848433c",
+      "path": ".vercel/project.json",
+      "size": 113
+    },
+    {
+      "chunk_size": 8388608,
+      "chunks": [
+        "0ca1084608fd9bc27037b18979482bd5d52ca78969bd3accc35122750800e601"
+      ],
+      "merkle_root": "0ca1084608fd9bc27037b18979482bd5d52ca78969bd3accc35122750800e601",
+      "path": "app.js",
+      "size": 22010
+    },
+    {
+      "chunk_size": 8388608,
+      "chunks": [
+        "b3f8db9bdf3420bdf684f78379e8ed44831578cc29da17f6762a749e8de3c4e2"
+      ],
+      "merkle_root": "b3f8db9bdf3420bdf684f78379e8ed44831578cc29da17f6762a749e8de3c4e2",
+      "path": "data/registry.json",
+      "size": 46025
+    },
+    {
+      "chunk_size": 8388608,
+      "chunks": [
+        "f2034292169f67dcff2d14a62177960c227b7b1afee69aa0bc46bc661bfa9d73"
+      ],
+      "merkle_root": "f2034292169f67dcff2d14a62177960c227b7b1afee69aa0bc46bc661bfa9d73",
+      "path": "index.html",
+      "size": 2614
+    },
+    {
+      "chunk_size": 8388608,
+      "chunks": [
+        "f05542915b294f130cd267aeff4178cc3188ac4834dc9216b6a5f5b4557e0ef0"
+      ],
+      "merkle_root": "f05542915b294f130cd267aeff4178cc3188ac4834dc9216b6a5f5b4557e0ef0",
+      "path": "styles.css",
+      "size": 9198
+    },
+    {
+      "chunk_size": 8388608,
+      "chunks": [
+        "f6ea4ad68cf51fe167978c1c3e532d4fbbb4734d55a355bbe8c1765226e23f08"
+      ],
+      "merkle_root": "f6ea4ad68cf51fe167978c1c3e532d4fbbb4734d55a355bbe8c1765226e23f08",
+      "path": "vercel.json",
+      "size": 227
+    }
+  ],
+  "license": "mit",
+  "name": "web",
+  "namespace": "pushback",
+  "publisher_pubkey": "95099ab466d244e5640ac0238c69be499b3f3907d7062f8f848974906560b97c",
+  "schema": "dhf.manifest.v1",
+  "signature": {
+    "algo": "ed25519",
+    "manifest_id": "5d4d2579feb47eae09e1ec7374f1fdaba8d80b29bdb30f9611b2c5037f79c87b",
+    "sig": "d6bbefaf549d573666e79ddf639a22ab667cb1abe55804ea025f34058e8c11ad992bf7140b055ef97a5c8fed0641afbf61af6cf6b17e8dc9931f01f6a339e907"
+  },
+  "sources": [
+    "ipfs://bafybeie7bwzx5skgnbw3dl3iv2mwehv3lwusfhmmixku6n3ky62h3szmwu",
+    "https://pushback.sh"
+  ],
+  "total_size": 80707,
+  "version": "1.0.1"
+}
