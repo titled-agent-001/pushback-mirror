@@ -1,0 +1,30 @@
+{
+  "created_at": 1794968941,
+  "description": "PushBack Desktop: lightweight signed client. Single-file Python zipapp that resolves the UI from the on-chain registry, verifies every byte against signed manifests, and serves it from 127.0.0.1 - no gateway, no DNS trust. The client can verify its own updates through this same registry entry.",
+  "files": [
+    {
+      "chunk_size": 8388608,
+      "chunks": [
+        "fc6674bb175eb75535a7d4135c8f40721f2636b46590f3098bad4503ea870e15"
+      ],
+      "merkle_root": "fc6674bb175eb75535a7d4135c8f40721f2636b46590f3098bad4503ea870e15",
+      "path": "pushback-desktop.pyz",
+      "size": 29827
+    }
+  ],
+  "license": "mit",
+  "name": "desktop",
+  "namespace": "pushback",
+  "publisher_pubkey": "95099ab466d244e5640ac0238c69be499b3f3907d7062f8f848974906560b97c",
+  "schema": "dhf.manifest.v1",
+  "signature": {
+    "algo": "ed25519",
+    "manifest_id": "82d64554c2ba0f854a2d537aa209884a29a61f6aedab7fcf0f7ba3671e229105",
+    "sig": "c62dacfb6edbc8a539882058709ae151740a81b3fc6fa4618f0ce483d008e0824960ba875f46c8810df20eab0ae970499cb15751d5a5764e593f6cd2c5250e04"
+  },
+  "sources": [
+    "https://github.com/titled-agent-001/pushback-mirror/releases/download/desktop-1.0.0"
+  ],
+  "total_size": 29827,
+  "version": "1.0.0"
+}
