@@ -1,0 +1,68 @@
+{
+  "created_at": 1794968106,
+  "description": "The PushBack frontend itself, content-addressed and signed. Pin it, mirror it, or serve it from any gateway; this manifest plus the IPFS CID make the UI verifiable like any model.",
+  "files": [
+    {
+      "chunk_size": 8388608,
+      "chunks": [
+        "ec3d8da152f3240fb9e3b5d134862222dc8ab5f6b3180a3b4ff3621d7b39d230"
+      ],
+      "merkle_root": "ec3d8da152f3240fb9e3b5d134862222dc8ab5f6b3180a3b4ff3621d7b39d230",
+      "path": "app.js",
+      "size": 22848
+    },
+    {
+      "chunk_size": 8388608,
+      "chunks": [
+        "b3f8db9bdf3420bdf684f78379e8ed44831578cc29da17f6762a749e8de3c4e2"
+      ],
+      "merkle_root": "b3f8db9bdf3420bdf684f78379e8ed44831578cc29da17f6762a749e8de3c4e2",
+      "path": "data/registry.json",
+      "size": 46025
+    },
+    {
+      "chunk_size": 8388608,
+      "chunks": [
+        "f2034292169f67dcff2d14a62177960c227b7b1afee69aa0bc46bc661bfa9d73"
+      ],
+      "merkle_root": "f2034292169f67dcff2d14a62177960c227b7b1afee69aa0bc46bc661bfa9d73",
+      "path": "index.html",
+      "size": 2614
+    },
+    {
+      "chunk_size": 8388608,
+      "chunks": [
+        "95f68173730a8d02c4a2dcfd38ad3e6b13070097c5936eb58d9c34024b059916"
+      ],
+      "merkle_root": "95f68173730a8d02c4a2dcfd38ad3e6b13070097c5936eb58d9c34024b059916",
+      "path": "styles.css",
+      "size": 9466
+    },
+    {
+      "chunk_size": 8388608,
+      "chunks": [
+        "f6ea4ad68cf51fe167978c1c3e532d4fbbb4734d55a355bbe8c1765226e23f08"
+      ],
+      "merkle_root": "f6ea4ad68cf51fe167978c1c3e532d4fbbb4734d55a355bbe8c1765226e23f08",
+      "path": "vercel.json",
+      "size": 227
+    }
+  ],
+  "license": "mit",
+  "name": "web",
+  "namespace": "pushback",
+  "publisher_pubkey": "95099ab466d244e5640ac0238c69be499b3f3907d7062f8f848974906560b97c",
+  "schema": "dhf.manifest.v1",
+  "signature": {
+    "algo": "ed25519",
+    "manifest_id": "f3a04baa9d23824147f0b95c151239e44733c7bf5cf27bfa22b9428948aaacb7",
+    "sig": "e85b1fa5193dab713645a1d12da0f388275549038cef9e7906443b670eba4b130093dae333036b205db6319b2c033f5954f478e8d8d58a6c251c5fe02fbbc406"
+  },
+  "sources": [
+    "ipfs://bafybeic54kgpa73wiabkgsj6bwrvivxm5ixbnmcgfuxzm4wp26vtfta55a",
+    "https://pushback.sh",
+    "https://raw.githubusercontent.com/titled-agent-001/pushback-mirror/main/web"
+  ],
+  "total_size": 81180,
+  "version": "1.0.2"
+}
